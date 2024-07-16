@@ -1,0 +1,62 @@
+:root {
+    --green: #4a9848;
+    --black: #444;
+    --light-color: #777;
+    --box-shadow: .5rem .5rem 0 rgba(22, 160, 133, .2);
+    --text-shadow: .4rem .4rem 0 rgba(0, 0, 0, .2);
+    --border: .2rem solid var(--green);
+}
+
+body {
+    background-color: #f9f9f9; /* Light grey background color */
+    font-family: Arial, sans-serif;
+}
+
+.image1, .image2, .image3, .image4, .image5, .image6 {
+    margin: 10px;
+    box-shadow: var(--box-shadow);
+     object-fit: cover; 
+}
+
+.image1, .image5 {
+    height: 20rem;
+    width: 20rem;
+}
+
+.image2 {
+    height: 20rem;
+    width: 25rem;
+}
+
+.image3 {
+    height: 20rem;
+    width: 30rem;
+}
+
+.image4, .image6 {
+    height: 15rem;
+    width: 15rem;
+}
+
+.para {
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+h1 {
+    text-align: center;
+    font-weight: 600;
+    font-size: 3rem;
+    font-family: "sans-serif";
+    color: var(--green);
+}
+
+.section {
+    padding: 30px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 300;
+}
