@@ -41,6 +41,9 @@ section:nth-child(even){
     font-size: 5rem;
     letter-spacing: .4rem;
 }
+.logo-style{
+    height: 3.5rem;
+}
 .heading span{
     text-transform: uppercase;
     color: var(--green);
@@ -263,42 +266,6 @@ section:nth-child(even){
     color:var(--green);
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 @media (max-width:991px){
     html{
         font-size:55%;
@@ -344,4 +311,36 @@ section:nth-child(even){
     html{
         font-size:50%;
     }
+}
+.queries .box-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(27rem, 1fr));
+    gap: 2rem;
+}
+
+.queries .box-container .box {
+    background: #fff;
+    border-radius: .5rem;
+    box-shadow: var(--box-shadow);
+    border: var(--border);
+    padding: 2.5rem;
+    text-align: center;
+}
+
+.queries .box-container .box i {
+    color: var(--green);
+    font-size: 5rem;
+    padding-bottom: .5rem;
+}
+
+.queries .box-container .box h3 {
+    color: var(--black);
+    font-size: 2.5rem;
+    padding: 1rem 0;
+}
+
+.queries .box-container .box p {
+    color: var(--light-color);
+    font-size: 1.4rem;
+    padding: 1rem 0;
 }
